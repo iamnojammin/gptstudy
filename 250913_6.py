@@ -11,3 +11,4 @@ print(scores[3])
 
 power = [91, 2, 5, 4, 6]
 print (power)
+print(power[2])

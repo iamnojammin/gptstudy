@@ -6,13 +6,13 @@ scores = [10, 20, 30]
 
 # append 마지막 추가
 scores.append(100)
-print(scores)
+print(scores) # [10, 20, 30, 100]
 
 a = [10, 20]
 b = a
 b[0] = 100
 
-print (b)
+print (b) # -> [100, 20]
 print (a) #b[0]을 바꾸면 a[0]도 바뀜
 
 # 추가는 index 위치에 추가한다. ex) scores.insert(1, 200) -> 1번 인덱스 위치에 200 추가
